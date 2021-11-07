@@ -4,7 +4,7 @@
 			console.log('App Launch')
 		},
 		onShow: function() {
-			console.log('App Sho111111w')
+			console.log('App Sho1111111123w')
 		},
 		onHide: function() {
 			console.log('App Hide')
