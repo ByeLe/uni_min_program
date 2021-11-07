@@ -35,7 +35,7 @@ export default {
         };
     },
     onLoad(e) {
-        console.log('接受到的参数是----', e);
+        console.log('接受到的参数是11----', e);
         this.getShopinfoById(e.id || '1');
         this.Id = e.id || '';
         // this.getSjopCarLen();
