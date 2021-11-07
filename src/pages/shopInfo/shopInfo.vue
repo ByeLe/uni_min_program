@@ -10,9 +10,9 @@
       </swiper>
       <van-goods-action>
         <van-goods-action-icon icon="chat-o" text="客服" />
-        <van-goods-action-icon icon="cart-o" text="购物车" :info="shopCarLen" />
+        <van-goods-action-icon icon="cart-o" text="购物车" :info="count" />
         <van-goods-action-icon icon="shop-o" text="店铺" />
-        <van-goods-action-button color="#be99ff" text="加入购物车" type="warning" @click="addShopToCar"/>
+        <van-goods-action-button color="#be99ff" text="加入购物车" type="warning" @click="changeCount"/>
         <van-goods-action-button color="#7232dd" text="立即购买" @click="goBuyPage"/>
     </van-goods-action>
   </view>
@@ -20,7 +20,13 @@
 
 <script>
 import { get } from '../../uitls/htpp';
+import { mapState, mapMutations } from 'vuex';
 export default {
+    computed: {
+        ...mapState({
+            count: state => state.count,
+        }),
+    },
     data() {
         return {
             info: {},
@@ -32,9 +38,10 @@ export default {
         console.log('接受到的参数是----', e);
         this.getShopinfoById(e.id || '1');
         this.Id = e.id || '';
-        this.getSjopCarLen();
+        // this.getSjopCarLen();
     },
     methods: {
+        ...mapMutations(['changeCount']),
         goBuyPage() {
             uni.navigateTo({
                 url: '../../pages/buyPage/buyPage'

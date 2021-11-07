@@ -1,1 +1,0 @@
-<view><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['goShopInfo',['$0'],[[['list','',index,'Id']]]]]]]}}" bindtap="__e"><item vue-id="{{'11a600c0-1-'+index}}" name="{{item.name}}" imageUrl="{{item.thumImage}}" rmb="{{item.rmb}}" monthSall="{{item.mounthSell}}" bind:__l="__l"></item></view></block></view>

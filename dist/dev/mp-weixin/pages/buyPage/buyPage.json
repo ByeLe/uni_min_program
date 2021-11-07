@@ -1,6 +1,0 @@
-{
-  "navigationBarTitleText": "购买",
-  "usingComponents": {
-    "van-card": "/wxcomponents/vant/dist/card"
-  }
-}

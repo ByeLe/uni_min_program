@@ -1,5 +1,6 @@
 <template>
     <view>
+        12131
        <view
         v-for="(item, index) in list"
         :key="index"

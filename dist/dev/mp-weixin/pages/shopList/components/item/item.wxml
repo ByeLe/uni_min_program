@@ -1,1 +1,0 @@
-<view class="item-content data-v-37718d28"><image class="item-photo data-v-37718d28" src="{{imageUrl}}"></image><view class="item-title data-v-37718d28"><text class="data-v-37718d28">{{name}}</text></view><view class="item-info data-v-37718d28"><text class="item-rmb data-v-37718d28">{{rmb}}</text><text class="item-month-sall data-v-37718d28">{{monthSall}}</text></view></view>
