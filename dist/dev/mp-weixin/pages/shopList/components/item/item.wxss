@@ -1,0 +1,32 @@
+
+.item-content.data-v-37718d28 {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    height: 240px;
+    /* background-color: red; */
+    padding: 5px;
+}
+.item-photo.data-v-37718d28 {
+    width: 100%;
+    height: 179px;
+}
+.item-title.data-v-37718d28 {
+    height: 20px;
+    line-height: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.item-info.data-v-37718d28 {
+    display: flex;
+    justify-content: space-between;
+     font-size: 12px;
+}
+.item-rmb.data-v-37718d28 {
+    color: red;
+}
+.item-month-sall.data-v-37718d28 {
+    color: #999;
+}
+

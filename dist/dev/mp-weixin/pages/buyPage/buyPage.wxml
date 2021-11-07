@@ -1,0 +1,1 @@
+<view><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view><van-card vue-id="{{'a8f52058-1-'+index}}" num="{{item.count}}" title="{{item.info.name}}" desc="这是描述信息" price="{{item.info.rmb}}" thumb="{{item.info.thumImage}}" data-com-type="wx" bind:__l="__l"></van-card></view></block></view>

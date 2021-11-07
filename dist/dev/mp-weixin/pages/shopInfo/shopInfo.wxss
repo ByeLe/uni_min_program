@@ -1,0 +1,11 @@
+
+.swiper-content.data-v-aa1199f4 {
+    height: calc(50vh);
+    background-color: antiquewhite;
+}
+.image-content.data-v-aa1199f4 {
+    display: block;
+    margin:  0 auto;
+    height: calc(50vh);
+}
+

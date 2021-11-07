@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "商品列表",
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "item": "/pages/shopList/components/item/item"
+  }
+}
